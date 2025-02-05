@@ -9,8 +9,8 @@ const NewsLetterBox = () => {
         Subscribe now & get 20% off
       </p>
       <p className="text-gray-400 mt-3">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
-        voluptates dolorem, nemo culpa nam similique.
+        Subscribe now to stay updated and enjoy an exclusive 20% discount on
+        your first purchase. Don’t miss out on this limited-time offer!
       </p>
       <form
         onSubmit={onSubmitHandler}
