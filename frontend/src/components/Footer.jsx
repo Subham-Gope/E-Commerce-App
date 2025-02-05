@@ -7,8 +7,8 @@ const Footer = () => {
         <div>
           <img src={assets.logo} alt="logo" className="mb-5 w-32" />
           <p className="w-full md:w-2/3 text-gray-600">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
-            magni vitae, aperiam rem laboriosam quas.
+            Forever E-Commerce: Trendy products, secure payments, fast delivery,
+            great service.
           </p>
         </div>
         <div>
