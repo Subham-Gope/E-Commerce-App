@@ -38,4 +38,4 @@ If you have any questions or suggestions, feel free to reach out!
 
 ---
 
-### ⭐ Feel free to contribute or star the repo if you like it! 🚀
+### ⭐ Feel free to star the repo if you like it! 🚀
