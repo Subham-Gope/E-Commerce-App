@@ -18,5 +18,7 @@ describe("Testing the Footer.jsx file", () => {
     // verifying logo is displayed
     const logo = screen.getByAltText(/logo/i);
     expect(logo).toBeInTheDocument();
+
+    // 
   });
 });
