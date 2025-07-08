@@ -1,0 +1,92 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the Footer.jsx file > renders logo, title, quick link and contact information 1`] = `
+<div>
+  <div>
+    <div
+      class="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm"
+    >
+      <div>
+        <img
+          alt="logo"
+          class="mb-5 w-32"
+          src="/src/assets/logo.png"
+        />
+        <p
+          class="w-full md:w-2/3 text-gray-600"
+        >
+          Forever E-Commerce: Trendy products, secure payments, fast delivery, great service.
+        </p>
+      </div>
+      <div>
+        <p
+          class="text-xl font-medium mb-5"
+        >
+          COMPANY
+        </p>
+        <ul
+          class="flex flex-col gap-1 text-gray-600"
+        >
+          <li>
+            <a
+              data-discover="true"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              data-discover="true"
+              href="/about"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <a
+              data-discover="true"
+              href="/contact"
+            >
+              Delivery
+            </a>
+          </li>
+          <li>
+            <a
+              data-discover="true"
+              href="/about"
+            >
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p
+          class="text-xl font-medium mb-5"
+        >
+          GET IN TOUCH
+        </p>
+        <ul
+          class="flex flex-col gap-1 text-gray-600"
+        >
+          <li>
+            +1-212-456-7890
+          </li>
+          <li>
+            Contact@forever.com
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <hr />
+      <p
+        class="py-5 text-sm text-center"
+      >
+        Copyrights 2024 @forever.com - All Rights Reserved
+      </p>
+    </div>
+  </div>
+</div>
+`;
