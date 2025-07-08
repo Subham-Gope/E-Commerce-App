@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import AutoImport from "unplugin-auto-import/vite";
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     AutoImport({
@@ -15,9 +15,17 @@ export default defineConfig({
     port: 5173,
   },
 
+  build: {
+    rollupOptions: {
+      external: mode == "production" ? [/\.test\.(js|ts)x?$/] : [],
+    },
+  },
+
   test: {
     globals: true,
     environment: "jsdom",
     setupFiles: ["./test/setup.js"],
+    include: ["src/**/*.test.{js,ts,jsx,tsx}"],
+    exlcude: ["nodemodules", "dist", ".git"],
   },
-});
+}));
