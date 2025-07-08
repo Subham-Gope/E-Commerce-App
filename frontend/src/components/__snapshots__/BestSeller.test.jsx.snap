@@ -1,0 +1,166 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the BestSeller.tsx file > renders only 5 bestseller items 1`] = `
+<div>
+  <div
+    class="my-10"
+  >
+    <div
+      class="text-center text-3xl py-8"
+    >
+      <div
+        class="inline-flex gap-2 items-center mb-3"
+      >
+        <p
+          class="text-gray-500"
+        >
+          BEST
+           
+          <span
+            class="text-gray-700 font-medium"
+          >
+            SELLER
+          </span>
+        </p>
+        <p
+          class="w-8 sm:w-12 h-[1px] sm:h-[2px] bg-gray-700"
+        />
+      </div>
+      <p
+        class="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600"
+      >
+        Shop Our Best Sellers: Customer Favorites You’ll Love!
+      </p>
+    </div>
+    <div
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6"
+    >
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/1"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="img1.png"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          Product 1
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          100
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/2"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="img2.png"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          Product 2
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          200
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/3"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="img3.jpg"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          Product 3
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          300
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/4"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="img4.jpg"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          Product 4
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          400
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/5"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="img5.jpg"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          Product 5
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          500
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+`;

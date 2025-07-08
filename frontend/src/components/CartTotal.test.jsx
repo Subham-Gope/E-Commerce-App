@@ -22,7 +22,10 @@
 // describe("Testing the CartTotal.jsx file", () => {
 //   test("renders shipping fee, currency, total amount", () => {
 //     // rendering with context
-//     renderWithContext(mockValues);
+//     const { container } = renderWithContext(mockValues);
+
+//     // Snapshot matching
+//     expect(container).toMatchSnapshot();
 
 //     // checking the title texts
 //     const title = screen.getByText(/cart/i);

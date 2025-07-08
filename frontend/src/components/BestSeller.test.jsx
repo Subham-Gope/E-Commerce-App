@@ -62,7 +62,12 @@
 // describe("Testing the BestSeller.tsx file", () => {
 //   test("renders only 5 bestseller items", () => {
 //     // rendering the component
-//     renderWithContext(<BestSeller />, { products: mockProducts });
+//     const { container } = renderWithContext(<BestSeller />, {
+//       products: mockProducts,
+//     });
+
+//     // Snapshot matching
+//     expect(container).toMatchSnapshot();
 
 //     // Checking the title texts
 //     const title = screen.getByText(/best seller/i);
