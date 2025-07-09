@@ -1,0 +1,52 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the Hero.jsx file > render the hero title, description and image 1`] = `
+<div>
+  <div
+    class="flex flex-col sm:flex-row border border-gray-400 "
+  >
+    <div
+      class="w-full sm:w-1/2 flex items-center justify-center py-10 sm:py-0"
+    >
+      <div
+        class="text-[#414141]"
+      >
+        <div
+          class="flex items-center gap-2"
+        >
+          <p
+            class="w-8 md:w-11 h-[2px] bg-[#414141]"
+          />
+          <p
+            class="font-medium text-sm md:text-base"
+          >
+            OUR BEST SELLER
+          </p>
+        </div>
+        <h1
+          class="prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed"
+        >
+          Latest Arrivals
+        </h1>
+        <div
+          class="flex items-center gap-2"
+        >
+          <p
+            class="font-semibold text-sm md:text-base"
+          >
+            SHOP NOW
+          </p>
+          <p
+            class="w-8 md:w-11 h-[2px] bg-[#414141]"
+          />
+        </div>
+      </div>
+    </div>
+    <img
+      alt="Hero Image"
+      class="w-full sm:w-1/2"
+      src="/src/assets/hero_img.png"
+    />
+  </div>
+</div>
+`;
