@@ -1,0 +1,291 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the LatestCollection.jsx file > displays title and 10 products 1`] = `
+<div>
+  <div
+    class="my-10"
+  >
+    <div
+      class="text-center py-8 text-3xl"
+    >
+      <div
+        class="inline-flex gap-2 items-center mb-3"
+      >
+        <p
+          class="text-gray-500"
+        >
+          LATEST
+           
+          <span
+            class="text-gray-700 font-medium"
+          >
+            COLLECTION
+          </span>
+        </p>
+        <p
+          class="w-8 sm:w-12 h-[1px] sm:h-[2px] bg-gray-700"
+        />
+      </div>
+      <p
+        class="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600"
+      >
+        Discover Our Latest Collection: Trendy Styles and Must-Have Pieces Just for You!
+      </p>
+    </div>
+    <div
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6"
+    >
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/1"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image1"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product1
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          5
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/2"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image2"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product2
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          10
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/3"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image3"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product3
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          15
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/4"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image4"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product4
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          20
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/5"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image5"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product5
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          25
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/6"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image6"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product6
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          30
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/7"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image7"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product7
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          35
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/8"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image8"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product8
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          40
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/9"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image9"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product9
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          45
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/10"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="image10"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          product10
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+          50
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+`;
