@@ -1,6 +1,10 @@
+import { useState } from "react";
+
 const NewsLetterBox = () => {
-  const onSubmitHandler = (event) => {
-    event.preventDefault();
+  const [email, setEmail] = useState("");
+
+  const onChangeHandler = (e) => {
+    setEmail(e.target.value);
   };
 
   return (
@@ -13,13 +17,18 @@ const NewsLetterBox = () => {
         your first purchase. Don’t miss out on this limited-time offer!
       </p>
       <form
-        onSubmit={onSubmitHandler}
+        action="https://app.us2.list-manage.com/subscribe/post?u=29f2bf7df8ccaa4d054839728&id=3a4ce84596&f_id=00c1a4e0f0"
+        method="POST"
+        target="_blank"
         className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3 max-w-md"
       >
         <input
           type="email"
+          name="EMAIL"
           className="w-full sm:flex-1 outline-none"
           placeholder="Enter your email"
+          value={email}
+          onChange={onChangeHandler}
           required
         />
         <button
