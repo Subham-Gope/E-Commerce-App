@@ -1,0 +1,161 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the Navbar.jsx file > renders the navigation menu 1`] = `
+<div>
+  <div
+    class="flex items-center justify-between py-5 font-medium"
+  >
+    <a
+      data-discover="true"
+      href="/"
+    >
+      <img
+        alt="Logo"
+        src="logo.png"
+      />
+    </a>
+    <ul
+      class="hidden sm:flex gap-5 text-sm text-gray-700"
+    >
+      <a
+        aria-current="page"
+        class="flex flex-col items-center gap-1 active"
+        data-discover="true"
+        href="/"
+      >
+        <p>
+          HOME
+        </p>
+        <hr
+          class="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"
+        />
+      </a>
+      <a
+        class="flex flex-col items-center gap-1"
+        data-discover="true"
+        href="/collection"
+      >
+        <p>
+          COLLECTION
+        </p>
+        <hr
+          class="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"
+        />
+      </a>
+      <a
+        class="flex flex-col items-center gap-1"
+        data-discover="true"
+        href="/about"
+      >
+        <p>
+          ABOUT
+        </p>
+        <hr
+          class="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"
+        />
+      </a>
+      <a
+        class="flex flex-col items-center gap-1"
+        data-discover="true"
+        href="/contact"
+      >
+        <p>
+          CONTACT
+        </p>
+        <hr
+          class="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"
+        />
+      </a>
+    </ul>
+    <div
+      class="flex items-center gap-6"
+    >
+      <img
+        alt="Search Icon"
+        class="w-5 cursor-pointer"
+        src="search.png"
+      />
+      <div
+        class="group realtive"
+      >
+        <img
+          alt="Profile Icon"
+          class="w-5 cursor-pointer"
+          src="profile.png"
+        />
+      </div>
+      <a
+        class="relative"
+        data-discover="true"
+        href="/cart"
+      >
+        <img
+          alt="cart icon"
+          class="w-5 min-w-5"
+          src="cart.png"
+        />
+        <p
+          class="absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]"
+        >
+          0
+        </p>
+      </a>
+      <img
+        alt="menu icon"
+        class="w-5 cursor-pointer sm:hidden"
+        src="menu.png"
+      />
+    </div>
+    <div
+      class="absolute top-0 right-0 bottom-0 overflow-hidden bg-white transition-all w-0"
+      role="sidebar"
+    >
+      <div
+        class="flex flex-col text-gray-600 gap-43"
+      >
+        <div
+          class="flex items-center gap-4 p-3 w-fit cursor-pointer"
+        >
+          <img
+            alt="dropdown icon"
+            class="h-4 rotate-180"
+            src="dropdown.png"
+          />
+          <p>
+            Back
+          </p>
+        </div>
+        <a
+          aria-current="page"
+          class="py-2 pl-6 border-none active"
+          data-discover="true"
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          class="py-2 pl-6 border-none"
+          data-discover="true"
+          href="/collection"
+        >
+          Collection
+        </a>
+        <a
+          class="py-2 pl-6 border-none"
+          data-discover="true"
+          href="/about"
+        >
+          About
+        </a>
+        <a
+          class="py-2 pl-6 border-none"
+          data-discover="true"
+          href="/contact"
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

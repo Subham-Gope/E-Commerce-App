@@ -100,6 +100,7 @@ const Navbar = () => {
         className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white transition-all ${
           visible ? "w-full" : "w-0"
         }`}
+        role="sidebar"
       >
         <div className="flex flex-col text-gray-600 gap-43">
           <div
