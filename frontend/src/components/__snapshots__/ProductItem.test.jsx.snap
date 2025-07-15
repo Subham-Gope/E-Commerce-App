@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the ProductItem.jsx file > rendering the product card 1`] = `
+<div>
+  <a
+    class="text-gray-700 cursor-pointer"
+    data-discover="true"
+    href="/product/1"
+  >
+    <div
+      class="overflow-hidden"
+    >
+      <img
+        alt="product image"
+        class="hover:scale-110 transition ease-in-out"
+        src="shirt.png"
+      />
+    </div>
+    <p
+      class="pt-3 pb-1 text-sm"
+    >
+      shirt
+    </p>
+    <p
+      class="text-sm font-medium"
+    >
+       $ 23
+    </p>
+  </a>
+</div>
+`;

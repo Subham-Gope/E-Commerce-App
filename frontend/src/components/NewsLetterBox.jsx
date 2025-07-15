@@ -21,6 +21,7 @@ const NewsLetterBox = () => {
         method="POST"
         target="_blank"
         className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3 max-w-md"
+        aria-label="form"
       >
         <input
           type="email"

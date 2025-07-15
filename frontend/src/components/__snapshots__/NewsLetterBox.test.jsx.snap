@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the NewsLetterBox.jsx file > renders news letter subscribe form 1`] = `
+<div>
+  <div
+    class="text-center"
+  >
+    <p
+      class="text-2xl font-medium text-gray-800"
+    >
+      Subscribe now & get 20% off
+    </p>
+    <p
+      class="text-gray-400 mt-3"
+    >
+      Subscribe now to stay updated and enjoy an exclusive 20% discount on your first purchase. Don’t miss out on this limited-time offer!
+    </p>
+    <form
+      action="https://app.us2.list-manage.com/subscribe/post?u=29f2bf7df8ccaa4d054839728&id=3a4ce84596&f_id=00c1a4e0f0"
+      aria-label="form"
+      class="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3 max-w-md"
+      method="POST"
+      target="_blank"
+    >
+      <input
+        class="w-full sm:flex-1 outline-none"
+        name="EMAIL"
+        placeholder="Enter your email"
+        required=""
+        type="email"
+        value=""
+      />
+      <button
+        class="bg-black text-white text-xs px-10 py-4"
+        type="submit"
+      >
+        SUBSCRIBE
+      </button>
+    </form>
+  </div>
+</div>
+`;

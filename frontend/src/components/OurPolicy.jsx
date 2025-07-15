@@ -6,25 +6,25 @@ const OurPolicy = () => {
       <div>
         <img
           src={assets.exchange_icon}
-          alt="exhange icon"
+          alt="exchange icon"
           className="w-12 m-auto mb-5"
         />
         <p className="font-semibold">Easy Exchange Policy</p>
-        <p>We Offer hassle free exchange poilcy</p>
+        <p>We Offer hassle free exchange policy</p>
       </div>
       <div>
         <img
           src={assets.quality_icon}
-          alt="exhange icon"
+          alt="quality icon"
           className="w-12 m-auto mb-5"
         />
         <p className="font-semibold">7 Days Return Policy</p>
-        <p>We provide 7 days of free return policye</p>
+        <p>We provide 7 days of free return policy</p>
       </div>
       <div>
         <img
           src={assets.support_img}
-          alt="exhange icon"
+          alt="support icon"
           className="w-12 m-auto mb-5"
         />
         <p className="font-semibold">Best customer support</p>
