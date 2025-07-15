@@ -1,0 +1,161 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RelatedProducts.jsx > renders 5 related items, filters by category + subCategory 1`] = `
+<div>
+  <div
+    class="my-24"
+  >
+    <div
+      class="text-center text-3xl py-2"
+    >
+      <div
+        class="inline-flex gap-2 items-center mb-3"
+      >
+        <p
+          class="text-gray-500"
+        >
+          RELATED
+           
+          <span
+            class="text-gray-700 font-medium"
+          >
+            PRODUCTS
+          </span>
+        </p>
+        <p
+          class="w-8 sm:w-12 h-[1px] sm:h-[2px] bg-gray-700"
+        />
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6"
+    >
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/1"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="black.jpg"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          Black Tee
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+           undefined 25
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/2"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="white.jpg"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          White Tee
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+           undefined 30
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/3"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="grey.jpg"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          Grey Tee
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+           undefined 20
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/4"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="green.jpg"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          Green Tee
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+           undefined 28
+        </p>
+      </a>
+      <a
+        class="text-gray-700 cursor-pointer"
+        data-discover="true"
+        href="/product/5"
+      >
+        <div
+          class="overflow-hidden"
+        >
+          <img
+            alt="product image"
+            class="hover:scale-110 transition ease-in-out"
+            src="blue.jpg"
+          />
+        </div>
+        <p
+          class="pt-3 pb-1 text-sm"
+        >
+          Blue Tee
+        </p>
+        <p
+          class="text-sm font-medium"
+        >
+           undefined 22
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+`;
