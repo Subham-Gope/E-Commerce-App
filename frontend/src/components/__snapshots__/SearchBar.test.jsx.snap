@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the SearchBar.jsx file > renders the searchBar 1`] = `
+<div>
+  <div
+    class="border-t border-b bg-gray-50 text-center"
+  >
+    <div
+      class="inline-flex items-center justify-center border border-gray-400 px-5 py-2 my-5 mx-3 rounded-full w-3/4 sm:w-1/2"
+    >
+      <input
+        class="flex-1 outline-none bg-inherit text-sm"
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+      <img
+        alt="search icon"
+        class="w-4"
+        src="search_icon.png"
+      />
+    </div>
+    <img
+      alt="cross icon"
+      class="inline w-3 cursor-pointer"
+      src="cross_icon.png"
+    />
+  </div>
+</div>
+`;
