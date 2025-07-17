@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the Title.jsx file > render the title 1`] = `
+<div>
+  <div
+    class="inline-flex gap-2 items-center mb-3"
+  >
+    <p
+      class="text-gray-500"
+    >
+      Hello
+       
+      <span
+        class="text-gray-700 font-medium"
+      >
+        There
+      </span>
+    </p>
+    <p
+      class="w-8 sm:w-12 h-[1px] sm:h-[2px] bg-gray-700"
+    />
+  </div>
+</div>
+`;
